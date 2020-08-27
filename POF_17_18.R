@@ -3,16 +3,8 @@ setwd("C:/Users/Admin/Desktop/Projetos/micro_Pof_17_18")
 getwd()
 
 #pacotes#
+pacotes <- c("dplyr","ggplot2","caTools","reshape2","magrittr","normtest","micEconCES","miscTools")
 
-library(dplyr)
-library(ggplot2)
-library(caTools) #divide a amostra#
-library(lmtest)
-library(reshape2)
-library(magrittr)
-library(normtest)
-library(micEconCES)
-library(miscTools)
 
 #importar os dados###############################################################################
 
