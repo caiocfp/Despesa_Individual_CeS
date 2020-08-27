@@ -4,6 +4,8 @@ getwd()
 
 #pacotes#
 pacotes <- c("dplyr","ggplot2","caTools","reshape2","magrittr","normtest","micEconCES","miscTools")
+lapply(pacotes,library,character.only = T)
+rm(pacotes)
 
 
 #importar os dados###############################################################################
